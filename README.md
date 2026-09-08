@@ -38,10 +38,31 @@ Excel - cleaning of the data using power query,creating of two duplicate tables,
 
 MYSQL - manipulated the appended table to give me separate queries that gives me the necessary insight
 
+```
+TEAM_TOTAL_GOALS =
+select Team,sum(goals) as total_goals
+FROM ts_academy.liiga2
+group by Team
+order by total_goals desc;
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
 POWER BI - uploaded the queries from mysql into power bi to different tables I used their primary key to create a relationship and create an interactive dashboard.
 
 ##VISUALIZATION
-<img width="1053" height="614" alt="uu" src="https://github.com/user-attachments/assets/b02c6231-4e9b-4357-8469-42a677890405" />
+<img width="3296" height="1935" alt="IMG_20260908_080405" src="https://github.com/user-attachments/assets/30ef3e6e-a23e-4dbe-a24b-89dd666986b8" />
+
 
 ### Exploratory Data Analysis
 
